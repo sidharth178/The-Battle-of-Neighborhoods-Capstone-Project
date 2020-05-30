@@ -5,12 +5,12 @@ https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-f8ff29718dd0
 
 ### Library Used
 
- 1.pandas
- 2.matplotlib
- 3.sklearn
- 4.json
- 5.folium
- 6.beautifulshop
+  1.pandas
+  2.matplotlib
+  3.sklearn
+  4.json
+  5.folium
+  6.beautifulshop
  
 ### Problem Statement
 
