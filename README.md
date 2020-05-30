@@ -3,6 +3,15 @@
 This is the capstone project of machine learning nanodegree program of udacity.Here is the link of my blog post about this project
 https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-f8ff29718dd0
 
+### Library Used
+
+ 1.pandas
+ 2.matplotlib
+ 3.sklearn
+ 4.json
+ 5.folium
+ 6.beautifulshop
+ 
 ### Problem Statement
 
 Due to its central geographic location and generally welcoming climate, Dubai is known for its international atmosphere. It is home to close to 2.5 Million expatriateswho make up 90% of the total population and it hosts close to 15 Million visitors per year. My proposal, then, is an analysis of the neighborhoods in Dubai for the consideration of opening a new Mexican restaurant. The objective is to have a location that is within one of the more reasonable rent zones, but also within a close enough range (5km) to a ‘high’ rent zone. The assumption that proximity to high rent neighborhoods would result in takeout opportunities or provide residents an option to travel to our restaurant.
@@ -13,7 +22,15 @@ Due to its central geographic location and generally welcoming climate, Dubai is
 2. Ratio of Hotels to Restaurants
 3. Proximity to ‘high rent’ neighborhoods
 
-### Data Overview
+### Datasets and Inputs 
+    	    
+The data that we will use for this analysis is a combination of a CSV file that has been prepared for the purposes of the analysis   from multiple sources (Dubai_neighborhoods.csv) and the location/venue information in foursquare.   
+ 
+For this project we need the following data :  
+ 
+1.	Dubai City data that contains list Boroughs, Neighborhoods along with their latitude and longitude. 
+2.	Indian resturants in each neighborhood of Dubai. 
+3.	GeoSpace data 
 
 The data that we will use for this analysis is a combination of a CSV file that has been prepared for the purposes of the analysis from multiple sources (Dubai_neighborhoods.csv) and the location/venue information in foursquare.
 
