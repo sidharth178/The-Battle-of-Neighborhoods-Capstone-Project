@@ -15,11 +15,11 @@ https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-3d90f56dae69
   
   5.folium
   
-  6.beautifulshop
+
  
 ### Problem Statement
 
-The mission of this project is to use Foursquare location data and regional clustering of venue information to determine what might be the ‘best’ neighborhood in Dubai to open a restaurant.  As a westerner who has a passion for good Mexican food, I have found that there is not a lot of selection in the region.  This is supported by the fact that a review of Foursquare venues reveals zero Mexican restaurants listed on the site.Due to its central geographic location and generally welcoming climate, Dubai is known for its international atmosphere.  It is home to close to 2.5 Million expatriates who make up 90% of the total population1 and it hosts close to 15 Million visitors per year.2  In addition to its multi-cultural population and capital flows, Dubai is becoming well known as a destination of choice for great food.  It is a place where people can rest and try the best of each culture, either while they work here temporarily, or of they are just passing through.    
+Hong Kong is one of the biggest international cities in the world, and one of the financial center of Asia. Opening a restaurant here is an attractive idea for any one who want to extends its business to Asia. They would be very interested in this project.I will explore the neighborhoods in Hong Kong and answer the question: "Where is the appropriate place to open a new restaurant in Hong Kong"., I will use the Foursquare location data to explore neighborhoods in Hong Kong, and to come up with a problem that I can use the Foursquare location data to solve.    
 
 ### Elements to consider:
 
@@ -29,14 +29,16 @@ The mission of this project is to use Foursquare location data and regional clus
 
 ### Datasets and Inputs 
     	    
-The data that we will use for this analysis is a combination of a CSV file that has been prepared for the purposes of the analysis   from multiple sources (Dubai_neighborhoods.csv) and the location/venue information in foursquare.   
- 
-For this project we need the following data :  
- 
-1.	Dubai City data that contains list Boroughs, Neighborhoods along with their latitude and longitude. 
-2.	Indian resturants in each neighborhood of Dubai. 
-3.	GeoSpace data 
+My main two data sources are:
 
-The data that we will use for this analysis is a combination of a CSV file that has been prepared for the purposes of the analysis from multiple sources (Dubai_neighborhoods.csv) and the location/venue information in foursquare.
+1.	Wikipedia[1] provides the list of districts and neighborhoods in Hong Kong
 
-DIFC would be the best choice considering all the factors: medium rental index, relative high volume of things to do for tourists and locals, it is a business center, it is close in proximity to other high rent neighborhoods, and the ratio of hotels to restaurants is not too high. Other neighborhoods that were considered were Barsha Heights and the Dubai Marina. Although Barsha Heights seems preferable given the low ratio of hotel venues to restaurants, it is not a particularly well know neighborhood and people would likely not travel there specifically to eat. It is also only close to one of the ‘high rent’ neighborhoods. Finally, Dubai Marina was not a preference as it is already saturated with restaurants.
+2.	Venues data from Foursquare[2]
+
+The coordinates data is from https://www.maps.ie/coordinates.html
+Hong Kong consists of Hong Kong Island, the Kowloon Peninsula, the New Territories, Lantau Island, and over 200 other islands. This project will focus on Hong Kong Island and Kowloon.In this project, I will get data of recommended venues inside 1000 meters radius of every neighborhood, calculate the top10 most common venues by its category as features. Plus, the 11th feature is if there is a bus/metro station nearby.
+
+For this project, k-means is an appropriate clustering algorithm. Because we have a unlabelled dataset, so this is an unsupervisied learning project. K-means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.By clustering the neighborhoods, we can find out the pattern in them, identify the identical neighborhoods and see which is our target.One difficulty of k-means is to determine the hyperparameter k . In this project I will choose k=5 , means clustering the neighborhoods into 5 clusters. k=5 is an experience hyperparameter.
+
+In this project, we need to use the location data from Foursquare to solve the problem "Where is the appropriate place to open a new restaurant in Hong Kong".
+I collect the neighborhoods data from wikipedia page, and format it manually. Get venues data using Foursquare's API. One-hot encode the venues' categories and calculate the frequencies, then get TOP10 common venues for each neighborhood plus the bus/metro station existence as features.
