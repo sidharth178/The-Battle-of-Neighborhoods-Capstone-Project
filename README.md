@@ -1,7 +1,7 @@
 # THE-BATTLE-OF-THE-NEIGHBOURHOODS-PROJECT
 
 This is the capstone project of machine learning nanodegree program of udacity.Here is the link of my blog post about this project
-https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-f8ff29718dd0
+https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-3d90f56dae69
 
 ### Library Used
 
