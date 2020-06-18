@@ -19,7 +19,7 @@ https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-2ecd56131593
  
 ### Problem Statement
 
-Hong Kong is one of the biggest international cities in the world, and one of the financial center of Asia. Opening a restaurant here is an attractive idea for any one who want to extends its business to Asia. They would be very interested in this project.I will explore the neighborhoods in Hong Kong and answer the question: "Where is the appropriate place to open a new restaurant in Hong Kong"., for exploring neighborhoods in Hong Kongi will use the Foursquare location data , and to come up with a problem that I can use the Foursquare location data to solve.    
+Hong Kong is one of the biggest international cities in the world, and one of the financial center of Asia. Opening a restaurant here is an attractive idea for any one who want to extends its business to Asia. They would be very interested in this project.I will explore the neighborhoods in Hong Kong and answer the question: "Where is the appropriate place to open a new restaurant in Hong Kong".
 
 ### Elements to consider:
 
