@@ -1,7 +1,7 @@
 # THE-BATTLE-OF-THE-NEIGHBOURHOODS-PROJECT
 
 This is the capstone project of machine learning nanodegree program of udacity.Here is the link of my blog post about this project
-https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-3d90f56dae69
+https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-2ecd56131593
 
 ### Library Used
 
@@ -19,7 +19,7 @@ https://medium.com/@sidharth.ku178/the-battle-of-the-neighbourhoods-3d90f56dae69
  
 ### Problem Statement
 
-Hong Kong is one of the biggest international cities in the world, and one of the financial center of Asia. Opening a restaurant here is an attractive idea for any one who want to extends its business to Asia. They would be very interested in this project.I will explore the neighborhoods in Hong Kong and answer the question: "Where is the appropriate place to open a new restaurant in Hong Kong"., I will use the Foursquare location data to explore neighborhoods in Hong Kong, and to come up with a problem that I can use the Foursquare location data to solve.    
+Hong Kong is one of the biggest international cities in the world, and one of the financial center of Asia. Opening a restaurant here is an attractive idea for any one who want to extends its business to Asia. They would be very interested in this project.I will explore the neighborhoods in Hong Kong and answer the question: "Where is the appropriate place to open a new restaurant in Hong Kong"., for exploring neighborhoods in Hong Kongi will use the Foursquare location data , and to come up with a problem that I can use the Foursquare location data to solve.    
 
 ### Elements to consider:
 
@@ -41,4 +41,4 @@ Hong Kong consists of Hong Kong Island, the Kowloon Peninsula, the New Territori
 For this project, k-means is an appropriate clustering algorithm. Because we have a unlabelled dataset, so this is an unsupervisied learning project. K-means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.By clustering the neighborhoods, we can find out the pattern in them, identify the identical neighborhoods and see which is our target.One difficulty of k-means is to determine the hyperparameter k . In this project I will choose k=5 , means clustering the neighborhoods into 5 clusters. k=5 is an experience hyperparameter.
 
 In this project, we need to use the location data from Foursquare to solve the problem "Where is the appropriate place to open a new restaurant in Hong Kong".
-I collect the neighborhoods data from wikipedia page, and format it manually. Get venues data using Foursquare's API. One-hot encode the venues' categories and calculate the frequencies, then get TOP10 common venues for each neighborhood plus the bus/metro station existence as features.
+All the data of neighbours are collected from wikipedia page, and format it manually. Get venues data using Foursquare's API. One-hot encode the venues' categories and calculate the frequencies, then get TOP10 common venues for each neighborhood plus the bus/metro station existence as features.
