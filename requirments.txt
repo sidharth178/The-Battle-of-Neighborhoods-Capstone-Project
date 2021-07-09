@@ -1,0 +1,11 @@
+sklearn
+matplotlib
+pandas
+numpy
+scipy
+geopy
+beautifulsoup4
+requests
+folium
+kmeans
+-U scikit-learn
