@@ -45,7 +45,7 @@ $ git clone https://github.com/sidharth178/The-Battle-of-Neighborhoods-Capstone-
 ```
 Step-2:(Recommended)
 ```
-# Otherwise, In "True_Destination_Locator.ipynb" file,there is a link in the begining to open the file in Google Colab. Click in that link.
+# Otherwise, In "The_Battle_Of_Neighborhoods.ipynb" file,there is a link in the begining to open the file in Google Colab. Click in that link.
 ```
 Step-3: 
 ```
